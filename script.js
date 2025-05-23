@@ -66,7 +66,7 @@ async function updateWeatherUI (InputCity) {
 
   let city = InputCity;
 
-  let GEO_URL = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${API_KEY}`;
+  let GEO_URL = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${API_KEY}`;
 
   var GEO_DATA = await getData(GEO_URL);
   
